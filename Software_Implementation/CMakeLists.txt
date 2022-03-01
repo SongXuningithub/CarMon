@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.20)
+
+project(Sketch)
+
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/mylibpcap)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/MurmurHash3)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/CarMon)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/bSkt)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/rerskt)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/vHLL)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/util)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/SpreadSketch)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/Vector_BF)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/DCS) 
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/CDS) 
